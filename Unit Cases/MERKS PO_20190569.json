@@ -1,0 +1,33 @@
+{
+	"Shipping Address": "803A Park Avenue Murfreesboro TN 37129",
+	"Order_Date": "9/25/2019",
+	"Purchase order": "2019-0569",
+	"Line Items": [{
+		"Item Number": "S1-02435926000",
+		"Description": "Pressure Switch",
+		"Unit Price": "6.12",
+		"UOM": "ea",
+		"Quantity": "189",
+		"Need By": "",
+		"Amount": "1,156.68",
+		"Supplier Item": ""
+	}, {
+		"Item Number": "S1-02435926000",
+		"Description": "Pressure Switch",
+		"Unit Price": "6.12",
+		"UOM": "ea",
+		"Quantity": "189",
+		"Need By": "",
+		"Amount": "1,156.68",
+		"Supplier Item": ""
+	}, {
+		"Item Number": "S1-02435926000",
+		"Description": "Pressure Switch",
+		"Unit Price": "6.12",
+		"UOM": "ea",
+		"Quantity": "189",
+		"Need By": "",
+		"Amount": "1,156.68",
+		"Supplier Item": ""
+	}]
+}

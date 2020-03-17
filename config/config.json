@@ -1,0 +1,5 @@
+{
+    "address_api":"http://192.168.9.26:6786/api/user/getCustomerAddressBasedOnCustomerId",
+    "type":"POST",
+    "pdf2txt_path":"C:\\Users\\Shreyasm\\AppData\\Local\\Continuum\\anaconda3\\envs\\trialapp\\python.exe"
+}

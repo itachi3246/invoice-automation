@@ -1,0 +1,100 @@
+{
+    "Doc_identifier":{
+        "CATERPILLAR":["CATERPILLAR","Transaction Set Purpose","END OF DOCUMENT"]
+    },
+    "CATERPILLAR":{
+        "Extract_Table":{
+            "Start_Line":["QuantityFirmorPlannedShipDatePullType"],
+            "End_Line":["LastReceiptQuantity"]
+        
+        },
+        "Inner_TLines":{
+            "Line":{
+                "values":[
+                    {
+                        "type":"Quantity",
+                        "imp":"required",
+                        "start_position":1,
+                        "end_position":null,
+                        "separator":null,
+                        "line_no":0
+                    },
+                    {
+                        "type":"Need By",
+                        "imp":"required",
+                        "start_position":3,
+                        "end_position":null,
+                        "separator":null,
+                        "line_no":0
+                    }
+                ]
+            }
+
+        },
+        "Outer_TLines":{
+            "Line":{
+                "values":[
+                    {
+                        "type":"Item Number",
+                        "imp":"required",
+                        "direction":"right",
+                        "line":0,
+                        "index":0,
+                        "S_separator":"Buyer Part Number:",
+                        "E_separator":"Part Number Description:"
+                    },
+                    {
+                        "type":"Description",
+                        "imp":"required",
+                        "direction":"right",
+                        "line":0,
+                        "S_separator":"Part Number Description:",
+                        "E_separator":"Engineering Change:",
+                        "index":0
+                    },
+                    {
+                        "type":"UOM",
+                        "imp":"required",
+                        "direction":"right",
+                        "line":0,
+                        "S_separator":"Unit of Measure:",
+                        "E_separator":null,
+                        "index":0
+                    },
+                    {
+                        "type":"REV",
+                        "imp":"required",
+                        "direction":"right",
+                        "line":0,
+                        "S_separator":"Release Number:",
+                        "E_separator":"Vendor Part Number:",
+                        "index":0
+                    }
+                ]
+            }
+        },
+
+        "Other_details":{
+            "PO":{
+                    "word":"PO #",
+                    "direction":"right",
+                    "line":0,
+                    "index":0
+
+                },
+            "Date":{
+                    "word":"DATE:",
+                    "direction":"right",
+                    "line":0,
+                    "index":0
+
+                },
+            "Address":{
+                "Start":"SHIPPING ADDRESS:",
+                "R-side":"BILLING ADDRESS:",
+                "line":1,
+                "cust_id":["10005.01-A","10005.02-A","10005.03-A","10005.04-A","10005.06-A"]
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+	"Earnings": {
+		"Regular": ["Regular", "Recurring"],
+		"Regular Gross": ["Regular", "Recurring"],
+		"Rec Reg Gross": ["Regular", "Recurring"],
+		"Earnings": ["Regular", "Recurring"],
+		"Wages": ["Regular", "Recurring"],
+		"Regular Wages": ["Regular", "Recurring"],
+		"Regular Time": ["Regular", "Recurring"],
+		"Base Salary": ["Regular", "Recurring"],
+		"Regular Salary": ["Regular", "Recurring"],
+		"Salary": ["Regular", "Recurring"],
+		"Regular Earnings": ["Regular", "Recurring"],
+		"Holiday": ["Vacation", "Recurring"],
+		"Holiday Premiu": ["Vacation", "Recurring"],
+		"Holiday Time": ["Vacation", "Recurring"],
+		"Float Holiday": ["Vacation", "Recurring"],
+		"Vacation": ["Vacation", "Recurring"],
+		"Overtime": ["Overtime", "One Time"],
+		"Paid Overtm": ["Overtime", "One Time"],
+		"St Time O/T": ["Overtime", "One Time"],
+		"Premium Pay / OT": ["Overtime", "One Time"],
+		"Bonus": ["Bonus", "One Time"],
+		"Commission": ["Commission", "One Time"],
+		"Adjustments": ["Adjustments", "One Time"],
+		"Police Stress": ["Commission", "One Time"],
+		"Supper Money": ["Commission", "One Time"],
+		"HR NT DIFF": ["Commission", "One Time"]
+	},
+	"Taxes": {
+		"Tax Withholdings": ["Total", "None"],
+		"Social Security": ["SSI", "None"],
+		"EFica": ["SSI", "None"],
+		"F.I.C.A": ["SSI", "None"],
+		"FICA": ["SSI", "None"],
+		"EMed": ["Medicare", "None"],
+		"Medicare": ["Medicare", "None"],
+		"Medi": ["Medicare", "None"],
+		"FedInc": ["Federal Tax", "None"],
+		"Federal": ["Federal Tax", "None"],
+		"NYInc": ["State Tax", "None"],
+		"State": ["State Tax", "None"],
+		"City Wage": ["City Tax", "None"],
+		"City": ["City Tax", "None"],
+		"City Waiver": ["City Tax", "None"],
+		"Unemployment Compensation": ["Unemployment Tax", "None"]
+	},
+	"Pre Tax Deductions": {
+	    "Before-tax Deductions": ["Total", "None"],
+	    "Deferred Compensation": ["457 (b)", "None"],
+		"Medical Deduction": ["Medical", "None"],
+		"ACAMedical": ["Medical", "None"],
+		"Medical": ["Medical", "None"],
+		"TPassPT": ["None", "None"],
+		"G-CBP EMPE": ["None", "None"],
+		"LOCAL 371 -U": ["None", "None"]
+	},
+	"Post Tax Deductions": {
+	    "After-tax Deductions": ["Total", "None"],
+		"NYDisabE": ["Disability", "None"],
+		"NYFAMILY": ["Family", "None"],
+		"Union Dues": ["Union Dues", "None"],
+		"Public Employees Benefit Services": ["None", "None"],
+		"Defer Comp Loan Repayment Deduct": ["None", "None"],
+		"NYC 414H STD": ["None", "None"],
+		"G-CBP/BC EE": ["None", "None"]
+	},
+	"Reimbursements":{
+		"reimb":["Total","None"]
+	}
+}

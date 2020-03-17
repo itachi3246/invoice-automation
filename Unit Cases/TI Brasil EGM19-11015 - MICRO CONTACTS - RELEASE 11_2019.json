@@ -1,0 +1,15 @@
+{
+	"Shipping Address": "",
+	"Order_Date": "11-Nov-2019",
+	"Purchase order": "EGM19/11015",
+	"Line Items": [{
+		"Item Number": "DA009882AAF00",
+		"Description": "000110342 - WIPER",
+		"Unit Price": "0,42920",
+		"UOM": "",
+		"Quantity": "27.520,000UN",
+		"Need By": "",
+		"Amount": "11.811,58",
+		"Supplier Item": ""
+	}]
+}

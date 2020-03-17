@@ -1,0 +1,534 @@
+{
+    "Doc_identifier": {
+        "CROWLEY": [
+            "CROWLEY",
+            "CROWLEY LOGISTICS OF COSTA RICA",
+            "CVIF No."
+        ],
+        "MATERION": [
+            "FEDERAL ID NUMBER:",
+            "BRUSH PERFORMANCE ALLOYS",
+            "Materion Brush, Inc."
+        ],
+        "MATERION2": [
+            "Lamont Road",
+            "Delivery Number:",
+            "Tracking Number:"
+        ],
+        "AMCOENTEC": [
+            "Polymers"
+        ],
+        "HPE": [
+            "HPE AUTOMATION"
+        ]
+    },
+    "CROWLEY": {
+        "Type": "Case-1",
+        "Extract_Table": {
+            "Start_Line": [
+                "DESCRIPCIONCANTIDADTARIFAIVATOTAL"
+            ],
+            "End_Line": [
+                "Observaciones:"
+            ],
+            "Start_sub_Line": [],
+            "End_sub_Line": [
+                "#"
+            ],
+            "Ignore_Line": [],
+            "Header_Footer": [],
+            "header_footer_Count": 0
+        },
+        "Table_Lines": {
+            "Line": {
+                "separator": "\\s",
+                "values": [
+                    {
+                        "type": "Description",
+                        "imp": "required",
+                        "start_position": 0,
+                        "end_position": -4,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Quantity",
+                        "imp": "required",
+                        "start_position": -4,
+                        "end_position": -3,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Unit Price",
+                        "imp": "required",
+                        "start_position": -3,
+                        "end_position": -2,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Amount",
+                        "imp": "required",
+                        "start_position": -1,
+                        "end_position": null,
+                        "separator": null,
+                        "line_no": 0
+                    }
+                ]
+            },
+            "SubLine": {
+                "separator": "\\s",
+                "values": [
+                    {
+                        "type": "Item Number",
+                        "imp": "required",
+                        "start_position": -1,
+                        "end_position": null,
+                        "separator": null,
+                        "line_no": 0
+                    }
+                ]
+            }
+        },
+        "Other_details": {
+            "Invoice ID": {
+                "word": "Factura Electrónica",
+                "direction": "down",
+                "line": 1,
+                "index": 0
+            },
+            "PO": {
+                "word": "PO #",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "Date": {
+                "word": "Fecha:",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "Address": {
+                "Start": "Cliente",
+                "R-side": "C\u00e9dula No.:",
+                "line": 0,
+                "cust_id": []
+            },
+            "line_item_word": "Descripcion"
+        }
+    },
+    "MATERION": {
+        "Type": "Case-1",
+        "Extract_Table": {
+            "Start_Line": [
+                "ItemDescriptionQuantityUnitPriceValue"
+            ],
+            "End_Line": [
+                "Includesthefollowingdeliveries:"
+            ],
+            "Start_sub_Line": [
+                "Materion"
+            ],
+            "End_sub_Line": [],
+            "Ignore_Line": [],
+            "Header_Footer": [],
+            "header_footer_Count": 0
+        },
+        "Table_Lines": {
+            "Line": {
+                "separator": "\\s",
+                "values": [
+                    {
+                        "type": "Item Number",
+                        "imp": "required",
+                        "start_position": 0,
+                        "end_position": null,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Description",
+                        "imp": "required",
+                        "start_position": 1,
+                        "end_position": -4,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Quantity",
+                        "imp": "required",
+                        "start_position": -4,
+                        "end_position": -3,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "UOM",
+                        "imp": "required",
+                        "start_position": -3,
+                        "end_position": -2,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Unit Price",
+                        "imp": "required",
+                        "start_position": -2,
+                        "end_position": -1,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Amount",
+                        "imp": "required",
+                        "start_position": -1,
+                        "end_position": 0,
+                        "separator": null,
+                        "line_no": 0
+                    }
+                ]
+            },
+            "SubLine": {
+                "separator": "\\s",
+                "values": []
+            }
+        },
+        "Other_details": {
+            "Invoice ID": {
+                "word": "Invoice Number:",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "PO": {
+                "word": "Customer PO Number:",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "Date": {
+                "word": "Invoice Date:",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "Address": {
+                "Start": "Ship-to:",
+                "line": 0
+            }
+        }
+    },
+    "MATERION2": {
+        "Type": "Case-1",
+        "Extract_Table": {
+            "Start_Line": [
+                "ItemMaterialDescription",
+                "PlntQuantityUnitPriceCurrencyValue"
+            ],
+            "End_Line": [
+                "Withthefollowingconfiguration:"
+            ],
+            "Start_sub_Line": [
+                "Customer"
+            ],
+            "End_sub_Line": [
+                "Net"
+            ],
+            "Ignore_Line": [
+                "This transaction is entered into with Materion Brush Inc., 606 Lamont Road, Elmhurst, IL 60126"
+            ],
+            "Header_Footer": [],
+            "header_footer_Count": 0
+        },
+        "Table_Lines": {
+            "Line": {
+                "separator": "\\s",
+                "values": [
+                    {
+                        "type": "Item Number",
+                        "imp": "required",
+                        "start_position": 0,
+                        "end_position": null,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Description",
+                        "imp": "required",
+                        "start_position": 1,
+                        "end_position": -4,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Quantity",
+                        "imp": "required",
+                        "start_position": -4,
+                        "end_position": -3,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "UOM",
+                        "imp": "required",
+                        "start_position": -3,
+                        "end_position": -2,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Unit Price",
+                        "imp": "required",
+                        "start_position": -2,
+                        "end_position": -1,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Amount",
+                        "imp": "required",
+                        "start_position": -1,
+                        "end_position": 0,
+                        "separator": null,
+                        "line_no": 0
+                    }
+                ]
+            },
+            "SubLine": {
+                "separator": "\\s",
+                "values": []
+            }
+        },
+        "Other_details": {
+            "Invoice ID": {
+                "word": "Invoice Number:",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "PO": {
+                "word": "Customer PO Number:",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "Date": {
+                "word": "Invoice Date:",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "Address": {
+                "Start": "Ship-to:",
+                "line": 0
+            }
+        }
+    },
+    "HPE": {
+        "Type": "Case-1",
+        "Extract_Table": {
+            "Start_Line": [
+                "VendorItemDescriptionCustomerPart#ShippedBack-OrderUnitPriceAmountOrderQTY"
+            ],
+            "End_Line": [
+                "Subtotal"
+            ],
+            "Start_sub_Line": [
+                "SMC"
+            ],
+            "End_sub_Line": [],
+            "Ignore_Line": [],
+            "Header_Footer": [],
+            "header_footer_Count": 0
+        },
+        "Table_Lines": {
+            "Line": {
+                "separator": "\\s",
+                "values": []
+            },
+            "SubLine": {
+                "separator": "\\s",
+                "values": [
+                    {
+                        "type": "Item Number",
+                        "imp": "required",
+                        "start_position": 1,
+                        "end_position": null,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Description",
+                        "imp": "required",
+                        "start_position": 2,
+                        "end_position": -5,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Quantity",
+                        "imp": "required",
+                        "start_position": -5,
+                        "end_position": -4,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Unit Price",
+                        "imp": "required",
+                        "start_position": -3,
+                        "end_position": -2,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "UOM",
+                        "imp": "required",
+                        "start_position": -5,
+                        "end_position": -4,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Amount",
+                        "imp": "required",
+                        "start_position": -2,
+                        "end_position": null,
+                        "separator": null,
+                        "line_no": 0
+                    }
+                ]
+            }
+        },
+        "Other_details": {
+            "Invoice ID": {
+                "word": "Invoice #",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "PO": {
+                "word": "PO #",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "Date": {
+                "word": "Ship Date",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "Address": {
+                "Start": "Ship To",
+                "line": 1,
+                "cust_id": []
+            }
+        }
+    },
+    "AMCOENTEC": {
+        "Type": "Case-1",
+        "Extract_Table": {
+            "Start_Line": [
+                "ProductIDStockNoProductDescriptionCustomerOrderQtyUnitPriceExt.Price",
+                "MFGLotNoPart#LotQty"
+            ],
+            "End_Line": [
+                "TotalSales"
+            ],
+            "Start_sub_Line": [],
+            "End_sub_Line": [
+                "TotalSales"
+            ],
+            "Ignore_Line": [],
+            "Header_Footer": [],
+            "header_footer_Count": 0
+        },
+        "Table_Lines": {
+            "Line": {
+                "separator": "\\s",
+                "values": [
+                    {
+                        "type": "Item Number",
+                        "imp": "required",
+                        "start_position": 0,
+                        "end_position": 1,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Description",
+                        "imp": "required",
+                        "start_position": 1,
+                        "end_position": -5,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Quantity",
+                        "imp": "required",
+                        "start_position": -4,
+                        "end_position": -3,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Unit Price",
+                        "imp": "required",
+                        "start_position": -2,
+                        "end_position": null,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "UOM",
+                        "imp": "required",
+                        "start_position": -3,
+                        "end_position": -2,
+                        "separator": null,
+                        "line_no": 0
+                    },
+                    {
+                        "type": "Amount",
+                        "imp": "required",
+                        "start_position": -1,
+                        "end_position": null,
+                        "separator": null,
+                        "line_no": 0
+                    }
+                ]
+            },
+            "SubLine": {
+                "separator": "\\s",
+                "values": []
+            }
+        },
+        "Other_details": {
+            "Invoice ID": {
+                "word": "INVOICE No -",
+                "direction": "right",
+                "line": 0,
+                "index": 0
+            },
+            "PO": {
+                "word": "CUST PO NO",
+                "direction": "down",
+                "line": 1,
+                "index": 0
+            },
+            "Date": {
+                "word": "SHIP DATE",
+                "direction": "down",
+                "line": 1,
+                "index": 1
+            },
+            "Address": {
+                "Start": "SHIP TO",
+                "line": 1,
+                "cust_id": []
+            }
+        }
+    }
+}
